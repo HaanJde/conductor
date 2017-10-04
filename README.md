@@ -5,7 +5,7 @@
 
 # Default directory layout
 
-(From Ansible Best Practices)[http://docs.ansible.com/ansible/latest/playbooks_best_practices.html#directory-layout]
+[From Ansible Best Practices](http://docs.ansible.com/ansible/latest/playbooks_best_practices.html#directory-layout)
 
 ```text
 production                # inventory file for production servers
