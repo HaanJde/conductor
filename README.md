@@ -5,7 +5,8 @@
 
 # Default directory layout
 
-```production                # inventory file for production servers
+```text
+production                # inventory file for production servers
 staging                   # inventory file for staging environment
 
 group_vars/
