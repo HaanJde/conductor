@@ -1,4 +1,4 @@
-# conductor
+# Conductor
 
    Project: Bootstrapping a Debian/Ansible conductor host
 
