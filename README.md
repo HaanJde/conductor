@@ -12,7 +12,9 @@
    Sources :
        https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce.iso
        https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce+nonfree.iso
-          
+       
+     In case of an airgapped or offline install, also download the most recent applicable (check https://packages.debian.org/search?keywords=debootstrap&searchon=names&exact=1&suite=all&section=all) version off debootstrap. At this moment this is http://ftp.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.89_all.deb
+               
    Output: live environment in a separate hierarchy or a live system, containing the initial empty conductor host
    
    Known values afterwards:
