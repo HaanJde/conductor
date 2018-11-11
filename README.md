@@ -4,6 +4,7 @@
    
 # Initial host setup
 
+```
    Input: Debian 9.6 Stretch DVD
    
    Decisions to be made in advance : airgapped or online install, free only or including non-free firmware as well.
@@ -23,8 +24,7 @@
        root password crypt         :
        initial username            :
        initial user password crypt :
-
-
+```
 
 # Default directory layout
 
