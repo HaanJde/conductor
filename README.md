@@ -9,8 +9,8 @@ Input: Debian 9.6 Stretch DVD
    
 Decisions to be made in advance : airgapped or online install, free only or including non-free firmware as well.
    
+Sources :
 ```
-    Sources :
        https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce.iso
        https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce+nonfree.iso
 ```       
@@ -28,14 +28,15 @@ Known values :
    name servers                :
    root password crypt         :
    initial username            :
-    initial user password crypt :
+   initial user password crypt :
 ```
 
 # Default directory layout
 
 [From Ansible Best Practices](http://docs.ansible.com/ansible/latest/playbooks_best_practices.html#directory-layout)
 
-```text
+```
+text
 production                # inventory file for production servers
 staging                   # inventory file for staging environment
 
