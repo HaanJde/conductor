@@ -4,28 +4,31 @@
    
 # Initial host setup
 
+
+Input: Debian 9.6 Stretch DVD
+   
+Decisions to be made in advance : airgapped or online install, free only or including non-free firmware as well.
+   
 ```
-   Input: Debian 9.6 Stretch DVD
-   
-   Decisions to be made in advance : airgapped or online install, free only or including non-free firmware as well.
-   
-   Sources :
+    Sources :
        https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce.iso
        https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/debian-live-9.6.0-amd64-xfce+nonfree.iso
-       
-     In case of an airgapped or offline install, also download the most recent applicable (check https://packages.debian.org/search?keywords=debootstrap&searchon=names&exact=1&suite=all&section=all) version off debootstrap. At this moment this is http://ftp.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.89_all.deb
+```       
+
+In case of an airgapped or offline install, also download the most recent applicable (check https://packages.debian.org/search?keywords=debootstrap&searchon=names&exact=1&suite=all&section=all) version off debootstrap. At this moment this is http://ftp.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.89_all.deb
                
-   Output: live environment in a separate hierarchy or a live system, containing the initial empty conductor host
+Output: live environment in a separate hierarchy or a live system, containing the initial empty conductor host
    
-   Known values afterwards:
-       domain name                 : 
-       hostname                    :
-       ip address/subnetmask       :
-       gateway                     :
-       name servers                :
-       root password crypt         :
-       initial username            :
-       initial user password crypt :
+```
+Known values :
+   domain name                 : 
+   hostname                    :
+   ip address/subnetmask       :
+   gateway                     :
+   name servers                :
+   root password crypt         :
+   initial username            :
+    initial user password crypt :
 ```
 
 # Default directory layout
